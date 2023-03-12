@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<SalePrice &le; 220500.0<br/>squared_error = 6306788585.349<br/>samples = 1460<br/>value = 180921.196>, fillcolor="#f9e2d2"] ;
+1 [label=<squared_error = 1364510896.636<br/>samples = 1125<br/>value = 147134.058>, fillcolor="#ffffff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<squared_error = 6196216307.855<br/>samples = 335<br/>value = 294385.466>, fillcolor="#e58139"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
