@@ -1,17 +1,17 @@
 digraph Tree {
 node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
 edge [fontname="helvetica"] ;
-0 [label=<SalePrice &le; 220500.0<br/>squared_error = 6306788585.349<br/>samples = 1460<br/>value = 180921.196>, fillcolor="#fae7d9"] ;
-1 [label=<SalePrice &le; 150250.0<br/>squared_error = 1364510896.636<br/>samples = 1125<br/>value = 147134.058>, fillcolor="#fdf4ee"] ;
+0 [label=<GarageYrBlt &le; 1987.5<br/>squared_error = 6306788585.349<br/>samples = 1460<br/>value = 180921.196>, fillcolor="#f4ccaf"] ;
+1 [label=<GarageYrBlt &le; 950.0<br/>squared_error = 2307311709.714<br/>samples = 838<br/>value = 144485.364>, fillcolor="#f9e4d4"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
-2 [label=<squared_error = 525505745.389<br/>samples = 619<br/>value = 119777.942>, fillcolor="#ffffff"] ;
+2 [label=<squared_error = 1063531614.845<br/>samples = 81<br/>value = 103317.284>, fillcolor="#ffffff"] ;
 1 -> 2 ;
-3 [label=<squared_error = 355477004.831<br/>samples = 506<br/>value = 180599.346>, fillcolor="#fae7d9"] ;
+3 [label=<squared_error = 2239646459.086<br/>samples = 757<br/>value = 148890.403>, fillcolor="#f9e1d0"] ;
 1 -> 3 ;
-4 [label=<SalePrice &le; 352000.0<br/>squared_error = 6196216307.855<br/>samples = 335<br/>value = 294385.466>, fillcolor="#f1b992"] ;
+4 [label=<MasVnrArea &le; 184.5<br/>squared_error = 7496851164.095<br/>samples = 622<br/>value = 230009.986>, fillcolor="#eeac7c"] ;
 0 -> 4 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
-5 [label=<squared_error = 1239108222.908<br/>samples = 281<br/>value = 267108.786>, fillcolor="#f3c4a3"] ;
+5 [label=<squared_error = 3870559078.4<br/>samples = 432<br/>value = 201551.66>, fillcolor="#f2be99"] ;
 4 -> 5 ;
-6 [label=<squared_error = 7972998315.099<br/>samples = 54<br/>value = 436325.222>, fillcolor="#e58139"] ;
+6 [label=<squared_error = 9713722382.357<br/>samples = 190<br/>value = 294715.232>, fillcolor="#e58139"] ;
 4 -> 6 ;
 }
